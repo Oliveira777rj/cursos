@@ -35,8 +35,6 @@
         var yearInput = document.getElementById('year');
         var priceInput = document.getElementById('price');
 
-
-
         var game = {
           title: titleInput.value,
           year: yearInput.value,
@@ -78,7 +76,6 @@
 
       };
 
-
       function updateGame(){
 
         var idInput = document.getElementById('idEdit');
@@ -117,7 +114,6 @@
           item.setAttribute('data-title',game.title);
           item.setAttribute('data-year',game.year);
           item.setAttribute('data-price',game.price);
-
 
           item.innerHTML = game.id + ' - ' + game.title + ' - R$ ' + game.price;
 
