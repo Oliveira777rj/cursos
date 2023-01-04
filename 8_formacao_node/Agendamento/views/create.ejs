@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Cadastro</title>
+</head>
+<body>
+  
+  <h1>Cadastro de consulta</h1>
+  <hr>
+  <form method="post" action="create">
+    <input type="text" name="name" id="name" placeholder="Nome do paciente" class="form-control">
+    <input type="email" name="email" id="email" placeholder="email@email.com" class="form-control">
+    <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" class="form-control cpf">
+    <input type="text" name="description" id="description" placeholder="description" class="form-control">
+    <input type="date" name="date" id="date" class="form-control" placeholder="18/08/1998">
+    <input type="time" name="time" id="time" class="form-control">
+    <button class="btn btn-success btn-block">Agendar</button>
+  </form>
+
+</body>
+<script src="jquery.mask.min.js"></script>
+<script>
+  $('.cpf').mask('000.000.000-00');
+</script>
+</html>
