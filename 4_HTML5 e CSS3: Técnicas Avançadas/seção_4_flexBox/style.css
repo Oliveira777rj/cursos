@@ -1,0 +1,29 @@
+body{
+  background-color: #ddd;
+}
+
+.container{
+  display: flex;
+  width: 1000px;
+  background-color: #fff;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+  justify-content: center;
+  
+}
+
+.first{
+  background-color: red;
+}
+.second{
+  background-color: blue;
+  flex-grow: 2;
+
+}
+.third{
+  background-color: green;
+}
