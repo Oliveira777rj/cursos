@@ -1,0 +1,21 @@
+body{
+    background: gray ;
+    color: black;
+    font: normal 18pt arial;
+}
+
+div#area {
+
+    text-align: center;
+    background: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    
+}
+
+div#res{
+
+    margin-top: 20px;
+}

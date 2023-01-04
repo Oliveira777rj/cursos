@@ -1,0 +1,27 @@
+<script>
+ 
+    function pulaLinha ()  {
+        
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var pesoMichel = 91;
+    var alturaMichel = 1.71;
+    var imcMichel = pesoMichel / (alturaMichel * alturaMichel);
+    
+    mostra("O IMC é " + imcMichel);
+
+    var pesoFulano = 85
+    var alturaFulano = 1.85
+    var imcFulano = pesoFulano / (alturaMichel * alturaMichel)
+
+    mostra ("o imc de Fulano é " + imcFulano)
+
+</script>

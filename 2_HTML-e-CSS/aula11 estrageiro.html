@@ -1,0 +1,43 @@
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Estrangeiro</title>
+
+</head>
+
+<body>
+
+    <h1>Aprendendo Javascript</h1>
+</body>
+
+    Qual país você nasceu? <input type="text" name="txtnation" id="txtnation"> 
+    <input type="button" value="Verificar" onclick="Verificar()">
+    <div id="res">
+
+
+<script>
+
+    function Verificar(){
+
+    var nation = document.querySelector('input#txtnation');
+    var res = document.querySelector("div#res");
+    var nacionalidade =(txtnation.value);
+    res.innerHTML = `Nascido em ${nacionalidade}.`
+
+    if (nacionalidade == 'brasil'){
+        res.innerHTML = `Você nasceu em ${nacionalidade}, você é brasileiro.`
+    }
+
+    else{
+        res.innerHTML = `Você nasceu em ${nacionalidade}, você é estrangeiro.`
+    }
+    }
+
+    
+
+</script>
+
+</html>

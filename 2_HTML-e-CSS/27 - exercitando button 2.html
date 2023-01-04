@@ -1,0 +1,16 @@
+
+<input/>
+<button>Qual seu nome?</button>
+
+<script>
+    var input = document.querySelector ("input")
+    var button = document.querySelector ("button")
+    var value = ""
+    input.focus ()
+
+    function exibeTexto (){
+        alert(" Olá "  +  input.value +  ", seja bem vindo .")
+    }
+    button.onclick = exibeTexto;
+
+</script>

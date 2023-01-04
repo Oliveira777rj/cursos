@@ -1,0 +1,23 @@
+#titulo-1{
+  color: blue;
+}
+
+.titulo-2{
+  color: aquamarine;
+  font-style: oblique;
+}
+
+.titulo-3{
+  color: blueviolet;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+body{
+  background-color: black;
+  text-align: center;
+}

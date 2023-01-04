@@ -1,0 +1,42 @@
+.{
+  box-sizing: border-box;
+}
+
+.container{
+  background: #e6e3e3;
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 50px;
+  border: 8px solid #7e7878;
+  border-radius: 10px;
+}
+
+.rede-social h2{
+  text-align: center;
+  color: azure;
+}
+
+.rede-social ul{
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.rede-social li{
+  margin-bottom: 8px;
+}
+
+.rede-social a{
+  text-decoration: none;
+  color:#7e7878
+
+}
+
+.rede-social a:hover{
+  color: rgb(11, 216, 148);
+}
+
+body{
+  background-color: black;
+}

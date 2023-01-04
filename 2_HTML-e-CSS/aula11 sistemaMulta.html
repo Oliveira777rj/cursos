@@ -1,0 +1,38 @@
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Sistema de multa</title>
+
+</head>
+
+<body>
+
+    <h1>Aprendendo Javascript</h1>
+    <p>Sistema de multa de transito com node</p>
+</body>
+
+    velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+<script>
+    function calcular(){
+    var txtv = document.querySelector('input#txtvel');
+    var res = document.querySelector('div#res');
+    var velocidade = Number(txtvel.value);
+    res.innerHTML = `Sua velocidade atual é de ${velocidade} KM/h.`;      
+    
+    if (velocidade > 60){
+        res.innerHTML=`Sua velocidade estava em ${velocidade} KM/h, acima do permitido de 60KM/h`
+    }
+    else{
+        res.innerHTML=` Boa viagem`
+    }
+
+    }
+
+</script>
+
+</html>

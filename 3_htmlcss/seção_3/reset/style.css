@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+body{
+  height: 180vh;
+  background-color: black;
+}
+
+header{
+  background-color: aliceblue;
+  width: 100%;
+  position: sticky;
+  top: 0%;
+}
+
+.container{
+  background: #e6e3e3;
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 50px;
+  border: 8px solid #7e7878;
+  border-radius: 10px;
+}
+
+
+

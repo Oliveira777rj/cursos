@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  
+  <!---->
+  <h1>Formulários</h1>
+
+  <form>
+    <label for="email" id="email">Seu email</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu email"><br><br>
+
+    <label for="pnome">Primeiro nome</label>
+    <input type="text" id="pnome" name="pnome" placeholder="Seu primeiro nome" required><br><br>
+    
+    <label for="unome">Ultimo nome</label>
+    <input type="text" id="unome" name="unome" placeholder="Seu último nome" required> <br><br>
+
+    <label for="nascimento">Data nascimento</label>
+    <input type="date" name="nascimento" id="nascimento"><br><br>
+
+    <input type= "submit" value="Cadastrar"> <br><br><br>
+
+
+    <!--Tipo radio-->
+    <label>
+      <strong>Qual sua linguagem de programação favorita?</strong>
+    </label>
+
+    <label for="">
+      <input type="radio" name="linguagem" id="linguagem"> Java
+    </label>
+
+    <label for="">
+      <input type="radio" name="linguagem" id="linguagem"> Python
+    </label>
+
+    <label for="">
+      <input type="radio" name="linguagem" id="linguagem"> PHP
+    </label> <br><br><br>
+
+    <!--Tipo select-->
+    <label>
+      <strong>Sua escolaridade?</strong>
+      <select>
+        <option>Selecione</option>
+        <option>Fundamental</option>
+        <option>Ensino médio</option>
+        <option>Ensino superior</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Cadastrar">
+    </label><br><br><br>
+
+    <!--Tipo checkbox-->
+    <label>
+      <strong>Seleciona as tecnologias que você conhece:</strong>
+    </label><br><br>
+
+    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+    <label for="tecnologia1">HTML</label>
+
+    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+    <label for="tecnologia2">CSS</label>
+
+    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+    <label for="tecnologia3">Javascript</label>
+
+    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Nodejs">
+    <label for="tecnologia3">Nodejs</label>
+    <br><br>
+    <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+</html>

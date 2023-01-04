@@ -1,0 +1,18 @@
+
+
+<input/>
+
+<button>Texto que será exibido</button>
+
+<script>
+
+    var input = document.querySelector ("input")
+    var button = document.querySelector ("button")
+    var value = ""
+    input.focus ()
+
+    function textoExibir () {
+        alert(input.value)
+    }
+    button.onclick = textoExibir
+</script>

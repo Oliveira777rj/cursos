@@ -1,0 +1,23 @@
+body{
+  height: 180vh;
+  background-color: black;
+}
+
+.container{
+  background: #e6e3e3;
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 50px;
+  border: 8px solid #7e7878;
+  border-radius: 10px;
+}
+
+.area{
+  color: red;
+  position: fixed;
+  top: 500px;
+  left: 550px;
+}
+
+
