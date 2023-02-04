@@ -1,0 +1,13 @@
+<div id="book-page">
+    <div class="container">
+      <h1>{{book.title}}</h1>
+      <p>Este livro tem: {{book.pages}}</p>
+      <p><b>Autor(a): {{book.autor}}</b></p>
+      <div class="actions">
+        <a href="/books/edit/{{book.id}}">Editar</a>
+      </div>
+      <form action="/books/delete/{{book.id}}" method="post">
+        <input type="submit" value="Excluir">
+      </form>
+    </div>
+</div>
