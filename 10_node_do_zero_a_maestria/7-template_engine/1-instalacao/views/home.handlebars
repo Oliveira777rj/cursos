@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handlebars</title>
+</head>
+<body>
+  <h1>Olá, handlebars</h1>
+  {{#if aprovado}}
+      Parabéns, você foi aprovado!
+      {{else}}
+      <p>Infelizmente você não foi aprovado</p>
+  {{/if}}
+  
+  <p>O nome do usúario é {{user.name}} {{user.surname}} e sua idade é {{user.age}}</p>
+  {{#if auth}}
+    <p>
+      Você está autenticado, <a href="/dashboard">clique</a> para acessar.
+    </p>
+  {{/if}}
+  
+</body>
+</html>

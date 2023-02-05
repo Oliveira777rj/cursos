@@ -1,0 +1,11 @@
+h1{
+  color: red;
+}
+p{
+  color:rgb(51, 48, 48);
+}
+
+nav{
+  display: flex;
+  align-items: flex-end;
+}

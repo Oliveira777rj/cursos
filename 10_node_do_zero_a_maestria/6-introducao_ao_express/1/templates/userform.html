@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionando Usuario</title>
+</head>
+<body>
+  <h1 style="display: flex; align-items: center; justify-content: center;">Adicionando usúario</h1>
+  <form action="/users/save" method="post"  style="display: flex; align-items: center; justify-content: center; flex-direction: column;" >
+    <div>
+      <input type="text" name="name" placeholder="Digite um nome">
+    </div>
+    <div>
+      <input type="number" name="age" placeholder="Digite a idade">
+    </div>
+    <div style="padding-top: 8px;">
+      <input type="submit" value="Cadastrar" style="border-radius: 4px;">
+    </div>
+  </form>
+</body>
+</html>
